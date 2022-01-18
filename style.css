@@ -1,0 +1,90 @@
+header{
+    background-color: cornflowerblue;
+    padding: 10px 20px 30px 40px;
+    height: 80px;
+    /* 1 - на все стороны */
+    /* 2 - (top, bottom) (left, right) */
+    /* 3 - top (left, right) bottom */
+    /* 4 - top right bottom left */
+}
+
+img{
+  position:center;
+  top:10px;
+  left:10px;
+  width: 100px;
+}
+
+.logo{
+    margin: -20px 0px 0px -40px;
+}
+
+.logo, nav, nav > div{
+  display: inline-block;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 50px 25px;
+  font-size:larger;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.block_green{
+  background-color: green;
+  position: absolute;
+  height: 250px;
+  width: 400px;
+  right: 250px;
+  left: 10px;
+  bottom: 250px;
+  top: 150px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+}
+
+div{
+  text-align: justify;
+  padding:5px 20px 20px 20px;
+  }
+
+  .block_red{
+    background-color: red;
+    position: absolute;
+    height: 250px;
+    width: 400px;
+    left: 460px;
+    bottom: 250px;
+    top: 150px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+  }
+  
+  div{
+    text-align: justify;
+    padding:5px 20px 20px 20px;
+    }
+
+    .block_lightskyblue{
+      background-color: lightskyblue;
+      position: absolute;
+      height: 250px;
+      width: 400px;
+      left: 910px;
+      bottom: 250px;
+      top: 150px;
+      border-radius: 10px;
+      border-style: solid;
+      border-color: black;
+      border-width: thin;
+    }
+    
+    div {
+      text-align: justify;
+      padding:5px 20px 20px 20px;
+      }
+/* блоки робота глянуть добавить color red в img и шрифт подчеркнутый */
